@@ -8,6 +8,9 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/pd_store?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: Syp950628
+  data:
+    solr:   #注意修改ip地址
+      host: http://192.168.64.170:8983/solr/pd
 
   rabbitmq:
     host: 192.168.64.140
